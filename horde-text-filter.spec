@@ -5,7 +5,7 @@
 
 Name:          horde-text-filter
 Version:       0.0.2
-Release:       %mkrel 2
+Release:       %mkrel 3
 Summary:       Horde Text Filter API
 License:       LGPL
 Group:         Networking/Mail
