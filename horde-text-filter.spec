@@ -79,3 +79,22 @@ fi
 %{peardir}/tests/Horde_Text_Filter/tests/Filter_html2text.phpt
 %{peardir}/tests/Horde_Text_Filter/tests/Filter_html2text2.phpt
 %{peardir}/tests/Horde_Text_Filter/tests/Filter_space2html.phpt
+
+
+%changelog
+* Sat Jul 31 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-3mdv2011.0
++ Revision: 564102
+- Increased release for rebuild
+
+* Wed Mar 17 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-2mdv2010.1
++ Revision: 523023
+- replaced Requires(pre): %%{_bindir}/pear with Requires(pre): php-pear
+  increased release version
+
+* Mon Feb 22 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-1mdv2010.1
++ Revision: 509375
+- removed Buildrequires: hoder-framework
+- replaced PreReq with Requires(pre)
+- import horde-text-filter
+
+
